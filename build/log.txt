@@ -1,0 +1,13 @@
+Known pipe types:
+  wglGraphicsPipe
+(3 aux display modules not yet loaded.)
+:prc(warning): changing default value for ConfigVariable paste-emit-keystrokes from '1' to '0'.
+:pnmimage:png(warning): iCCP: known incorrect sRGB profile
+:pnmimage:png(warning): iCCP: known incorrect sRGB profile
+package_folder: C:\Users\wesle\Desktop\MyUrsinaGames\SpaceAvoider\build\python\lib\site-packages\ursina
+asset_folder: src
+read obj at: src\models\spaceship.obj
+screen resolution: (1920, 1080)
+os: Windows
+development mode: False
+application successfully started

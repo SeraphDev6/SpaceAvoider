@@ -29,18 +29,18 @@ class Spaceship(Entity):
   def update(self):
     if not self.dead:
       if held_keys["w"]:
-        self.y += 3 * time.dt
+        self.y += 5 * time.dt
         self.target_rot[0] = -20
       elif held_keys["s"]:
-        self.y -= 3 * time.dt
+        self.y -= 5 * time.dt
         self.target_rot[0] = 20
       else:
         self.target_rot[0] = 0
       if held_keys["d"]:
-        self.x += 3 * time.dt
+        self.x += 5 * time.dt
         self.target_rot[1] = 200
       elif held_keys["a"]:
-        self.x -= 3 * time.dt
+        self.x -= 5 * time.dt
         self.target_rot[1] = 160
       else:
         self.target_rot[1] = 180
